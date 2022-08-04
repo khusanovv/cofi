@@ -1,0 +1,38 @@
+.card_item__info{
+    max-width:255px ;
+    max-height:193px ;
+    .card_item__info-title{
+        font-family: 'Fraunces 9pt';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+    .card_item__info-text{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $acses-color;
+        margin-bottom: 200px;
+    }
+
+}
+
+@media screen  and (max-width:796px) {
+    .card_item__info{
+        margin-top: 20px;
+    }
+    .card_item__info-title{
+        margin-bottom: 24px;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 0;
+    }
+}
+@media screen  and (max-width:500px){
+    .card_item__info{
+        margin: 0 auto;
+    }
+}

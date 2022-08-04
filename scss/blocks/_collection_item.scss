@@ -1,0 +1,74 @@
+.collection_item__title{
+    max-width: 1111px;
+    max-height: 196px;
+    font-size: 150px;
+    line-height: 72px;
+    color: #83888F;
+    position: relative;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    z-index: 0;
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right:  0;
+        bottom: -20px;
+        background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+    }
+
+}
+.collection_item__card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: -36px;
+    z-index: 154;
+    &>*+* {
+        margin-left: 30px;
+    }
+}
+.card_item__img{
+    max-width: 256px;
+    height: 193px;
+    
+}
+@media screen  and (max-width:910px) {
+    .collection_item__title{
+        font-size: 130px;
+    }
+}
+@media screen  and (max-width:796px) {
+    .collection_item__title{
+        font-size: 96px;
+        
+    }
+    .collection_item__card{
+        flex-direction: column;
+    }
+    .card_item{
+        display: flex;
+        gap: 35px;
+        margin: 0;
+        justify-content: center;
+    }
+}
+@media screen  and (max-width:600px){
+    .collection_item__title{
+        font-size: 70px;
+    }
+}
+@media screen  and (max-width:500px){
+    .collection_item__title{
+        font-size: 40px;
+    }
+    .card_item{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .collection_item__card{
+        margin-top: 13px;
+    }
+}

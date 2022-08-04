@@ -1,0 +1,28 @@
+.services_title{
+    font-family: 'Barlow';
+    text-align: center;
+    .title{
+        padding-top: 90px;
+        font-style: normal;
+       
+        color: #fff;
+        margin: 0 auto;
+        .title_text{
+            font-family: 'Fraunces 9pt';
+            font-weight: 900;
+            max-width: 329px;
+            font-size: 40px;
+            line-height: 48px;
+            margin:  0 auto;
+        }
+        .info_text{
+            padding-top: 32px;
+            max-width:540px ;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #fff;
+            margin: 0 auto;
+        }
+    }
+}

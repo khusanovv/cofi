@@ -1,0 +1,35 @@
+.how_work{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 351px;
+    
+    .how_work__title{
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 95px;
+    }
+    .how_work_cart__button{
+        button{
+            @include button;
+            margin-bottom: 200px;
+        }
+
+    }
+}
+@media screen and (max-width:768px) {
+    .how_work{
+        margin-top: 1000px;
+    }
+}
+@media screen and (max-width:500px) {
+    .how_work_cart__button{
+        width: 217px;
+        button{
+            margin-left: 5%;
+        }
+
+    }
+}
+

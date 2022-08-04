@@ -1,0 +1,12 @@
+.services{
+    max-width: 1280px;
+    max-height: 577px;
+    background-color: $card-color;
+    border-radius: $border-lg;
+}
+@media screen and (max-width:768px) {
+    .services{
+        max-height: 688px;
+    }
+    
+}

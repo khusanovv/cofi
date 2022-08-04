@@ -1,0 +1,35 @@
+.site-header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 43px 0;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 33px;
+}
+
+.navbar__link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+.site-header__button{
+  display: none;
+  background-color:transparent;
+  border: none;
+}
+
+@media only screen and (max-width:600px) {
+  .navbar{
+    display: none;
+  }
+  .site-header__button{
+    display: block;
+  }
+}
